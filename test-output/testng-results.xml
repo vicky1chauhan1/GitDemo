@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-25T11:36:59 IST" name="Default suite" finished-at="2021-06-25T11:37:42 IST" duration-ms="43343">
+    <groups>
+    </groups>
+    <test started-at="2021-06-25T11:36:59 IST" name="Default test" finished-at="2021-06-25T11:37:42 IST" duration-ms="43343">
+      <class name="com.dev.devString.TestFile">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.dev.devString.TestFile@6c130c45]" started-at="2021-06-25T11:36:59 IST" name="browserLaunch" finished-at="2021-06-25T11:37:11 IST" duration-ms="12731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="login()[pri:0, instance:com.dev.devString.TestFile@6c130c45]" started-at="2021-06-25T11:37:12 IST" name="login" finished-at="2021-06-25T11:37:12 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dashboard()[pri:0, instance:com.dev.devString.TestFile@6c130c45]" started-at="2021-06-25T11:37:12 IST" name="dashboard" finished-at="2021-06-25T11:37:42 IST" depends-on-methods="com.dev.devString.TestFile.login" duration-ms="30068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+      </class> <!-- com.dev.devString.TestFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
