@@ -20,7 +20,7 @@ public class LoginPage {
 		Utils.sendKeys(email, "qa.sudhanshu@gmail.com");
 		Utils.sendKeys(pass, "123456");
 		Utils.click(login_button);
-		System.out.println("2nd commit");
+		System.out.println("2nd bar ");
 	}
 
 }
